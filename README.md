@@ -16,4 +16,4 @@ Projeto React (Vite) que consome a API pública [dummyjson.com/users](https://du
 
 ## Resultado
 
-![Lista de Usuários rodando no navegador](./assets/print-lista-users.png)
+![Lista de Usuários rodando no navegador](./assets/print.png)
