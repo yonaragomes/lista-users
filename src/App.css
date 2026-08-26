@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  padding: 24px;
+  background-color: #f6f0fd; /* fundo pastel bem claro, quase creme */
+  min-height: 100vh;
+}
+
+.App h1 {
+  margin-bottom: 24px;
+  color: #6B5B73; /* roxo acinzentado suave */
+}
+
+.lista-de-cartoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

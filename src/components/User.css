@@ -1,0 +1,59 @@
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.user-imagem {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+.user-header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.user-header p {
+  margin: 4px 0 0;
+  color: #777;
+  font-size: 14px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 12px 0;
+}
+
+.user-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.user-info strong {
+  color: #111;
+}
